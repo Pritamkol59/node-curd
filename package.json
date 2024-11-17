@@ -1,0 +1,44 @@
+{
+  "name": "pritisan",
+  "version": "1.0.1",
+  "description": "Auto API Generator with model controller route in Node.js supporting MySQL, PostgreSQL, SQLite, MongoDB using just 'pritisan' command",
+  "main": "index.js",
+  "scripts": {
+    "pritisan": "node index.js init",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode production"
+  },
+  "bin": {
+    "pritisan": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pritamkol59/node-curd.git"
+  },
+  "keywords": [
+    "Auto",
+    "API",
+    "Generator",
+    "model",
+    "controller",
+    "route",
+    "Node.js",
+    "MySQL",
+    "PostgreSQL",
+    "SQLite",
+    "MongoDB"
+  ],
+  "author": "Pritam Chakraborty",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pritamkol59/node-curd/issues"
+  },
+  "homepage": "https://github.com/Pritamkol59/node-curd#readme",
+  "devDependencies": {
+    "webpack": "^5.96.1",
+    "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "path-browserify": "^1.0.1"
+  }
+}
